@@ -7,7 +7,11 @@ namespace dws.api.actionrunner
 operation GetExecution {
     input: GetExecutionInput,
     output: GetExecutionOutput,
-    errors: [InvalidInputError]
+    errors: [
+        InvalidInputError,
+        ExecutionNotFoundError,
+        InternalServerError
+    ]
 }
 
 @input

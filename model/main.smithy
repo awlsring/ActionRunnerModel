@@ -6,6 +6,7 @@ use aws.protocols#restJson1
 @title("ActionRunner")
 
 @restJson1
+@httpApiKeyAuth(scheme: "ApiKey", name: "Authorization", in: "header")
 @paginated(
     inputToken: "nextToken",
     outputToken: "nextToken",

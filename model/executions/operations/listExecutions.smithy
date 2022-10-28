@@ -8,7 +8,7 @@ namespace dws.api.actionrunner
 operation ListExecutions {
     input: ListExecutionsInput,
     output: ListExecutionsOutput,
-    errors: [InvalidInputError]
+    errors: [InvalidInputError, InternalServerError]
 }
 
 @input

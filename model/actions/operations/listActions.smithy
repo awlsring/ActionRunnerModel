@@ -6,6 +6,10 @@ namespace dws.api.actionrunner
 @http(method: "GET", uri: "/action", code: 200)
 operation ListAction {
     output: ListActionOutput,
+    errors: [
+        InvalidInputError,
+        InternalServerError
+    ]
 }
 
 @output

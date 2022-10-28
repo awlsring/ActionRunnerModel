@@ -7,7 +7,11 @@ namespace dws.api.actionrunner
 operation GetAction {
     input: GetActionInput,
     output: GetActionOutput,
-    errors: [InvalidInputError]
+    errors: [
+        InvalidInputError,
+        ActionNotFoundError,
+        InternalServerError
+    ]
 }
 
 @input

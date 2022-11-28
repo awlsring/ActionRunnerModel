@@ -4,7 +4,7 @@
     "open-api": {
       "plugins": {
         "openapi": {
-          "service": "dws.api.actionrunner#ActionRunner",
+          "service": "awlsring.actionrunner#ActionRunner",
           "protocol": "aws.protocols#restJson1"
         }
       }

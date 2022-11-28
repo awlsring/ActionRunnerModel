@@ -1,6 +1,6 @@
 $version: "2.0"
 
-namespace dws.api.actionrunner
+namespace awlsring.actionrunner
 
 @readonly
 @http(method: "GET", uri: "/execution/{id}/detailed", code: 200)

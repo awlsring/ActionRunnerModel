@@ -1,6 +1,6 @@
 $version: "2.0"
 
-namespace dws.api.actionrunner
+namespace awlsring.actionrunner
 
 use aws.protocols#restJson1
 @title("ActionRunner")

@@ -1,6 +1,6 @@
 $version: "2.0"
 
-namespace dws.api.actionrunner
+namespace awlsring.actionrunner
 
 string MachineId
 
@@ -13,6 +13,9 @@ structure Machine {
     id: MachineId,
     ansibleHost: String,
     ansiblePort: Integer
+    ansibleUser: String,
+    ansiblePassword: String,
+    ansibleSudoPassword: String
 }
 
 list Machines {

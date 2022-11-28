@@ -1,6 +1,6 @@
 $version: "2.0"
 
-namespace dws.api.actionrunner
+namespace awlsring.actionrunner
 
 @error("client")
 @httpError(400)
